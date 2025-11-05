@@ -34,7 +34,7 @@ def create_commendation(school_subject, schoolkid_name):
 
 
 def get_schoolkid(schoolkid_name):
-	schoolkid_name = "Иван Фролов"
+	schoolkid_name = input("Введите имя ученика: ")
 	try:
 		child = Schoolkid.objects.get(full_name__contains=schoolkid_name)
 		return child

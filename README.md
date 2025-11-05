@@ -35,9 +35,9 @@ pip install -r requirements.txt
 3. Используйте ```python manage.py shell``` для запуска Django shell
 4. Импортируйте скрипты командой ```from main import fix_marks, remove_chastisements, create_commendation```
 5. Запустите скрипт, введя его название и необходимые аргументы, например:
-    1. Команда ```fix_marks(child)``` исправит все плохие оценки у Ивана Фролова
-    2. Команда ```remove_chastisements(child)``` удалит все замечания у Ивана Фролова
-    3. Команда ```create_commendation(child, school_subject, praise)``` добавит похвалу Ивану Фролову за урок математики с текстом "Красава"
+    1. Команда ```fix_marks(schoolkid_name)``` исправит все плохие оценки у Ивана Фролова
+    2. Команда ```remove_chastisements(schoolkid_name)``` удалит все замечания у Ивана Фролова
+    3. Команда ```create_commendation(school_subject, schoolkid_name)``` добавит похвалу Ивану Фролову за урок математики с текстом "Красава"
 
 ## Цель проекта
 
